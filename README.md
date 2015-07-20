@@ -11,4 +11,7 @@ Features include:-
 
 BONUS: Able to work side-by-side with the Cucumber JVM Eclipse Plugin.
 
-DOWNLOAD: http://waisuan.github.io/SEED
+DIRECT DOWNLOAD: http://waisuan.github.io/SEED
+
+DOWNLOAD THROUGH ECLIPSE MARKETPLACE: <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=2445802" class="drag" title="Drag to your running Eclipse workspace to install SEED"><img src="https://marketplace.eclipse.org/sites/all/themes/solstice/_themes/solstice_marketplace/public/images/btn-install.png" alt="Drag to your running Eclipse workspace to install SEED" /></a>
+
