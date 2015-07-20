@@ -11,4 +11,4 @@ Features include:-
 
 BONUS: Able to work side-by-side with the Cucumber JVM Eclipse Plugin.
 
-DOWNLOADS: http://waisuan.github.io/SEED
+DOWNLOAD: http://waisuan.github.io/SEED
