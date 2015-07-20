@@ -21,3 +21,5 @@ DOWNLOAD THROUGH ECLIPSE MARKETPLACE: <a href="http://marketplace.eclipse.org/ma
 
 ## Feel free to drop any sort of feedback or issues in <a href="https://github.com/waisuan/SEED/issues">here!</a>
 
+Keep track of SEED's <a href="https://github.com/waisuan/SEED/releases">releases</a>!
+
