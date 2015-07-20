@@ -10,3 +10,5 @@ Features include:-
 - Format Cucumber tests as soon as they are saved.
 
 BONUS: Able to work side-by-side with the Cucumber JVM Eclipse Plugin.
+
+DOWNLOADS: http://waisuan.github.io/SEED
