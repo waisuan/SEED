@@ -17,3 +17,5 @@ DIRECT DOWNLOAD: http://waisuan.github.io/SEED
 
 DOWNLOAD THROUGH ECLIPSE MARKETPLACE: <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=2445802" class="drag" title="Drag to your running Eclipse workspace to install SEED"><img src="https://marketplace.eclipse.org/sites/all/themes/solstice/_themes/solstice_marketplace/public/images/btn-install.png" alt="Drag to your running Eclipse workspace to install SEED" /></a>
 
+*Refer to WIKI for more information on features, installation instructions, and etc.
+
