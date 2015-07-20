@@ -7,7 +7,9 @@ Features include:-
 - Discovering duplicate Steps.
 - Provide QuickFix for 'Given' steps that have been repeated across all of the scenarios and migrate them into the 'Background'.
 - Provide QuickFix for consecutive Given/When/Then steps and refactor them into 'And' or 'But' steps.
-- Format Cucumber tests as soon as they are saved.
+- Format Cucumber tests as soon as they are saved (or through CTRL-SHIFT-F).
+- Cucumber grammar/syntax validation -- Before writing neat tests, they have to be valid beforehand!
+- Outline view of Cucumber tests.
 
 BONUS: Able to work side-by-side with the Cucumber JVM Eclipse Plugin.
 
