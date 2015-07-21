@@ -23,5 +23,5 @@ Keep track of SEED's <a href="https://github.com/waisuan/SEED/releases">releases
 
 ## Feel free to drop any sort of feedback or issues in <a href="https://github.com/waisuan/SEED/issues">here!</a>
 
-** Source code will be pushed to repository as soon as plugin has been approved on the Eclipse Marketplace. **
+** Source code will be pushed to repository real soon! **
 
