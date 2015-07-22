@@ -10,6 +10,8 @@ Features include:-
 * Format Cucumber tests as soon as they are saved (or through CTRL-SHIFT-F).
 * Cucumber grammar/syntax validation -- Before writing neat tests, they have to be valid beforehand!
 * Outline view of Cucumber tests.
+* Identifying lengthy Scenarios and Scenario Outlines. 
+* Identifying lengthy Background.
 
 BONUS: Able to work side-by-side with the Cucumber JVM Eclipse Plugin.
 
