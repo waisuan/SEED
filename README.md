@@ -10,8 +10,11 @@ Features include:-
 * Format Cucumber tests as soon as they are saved (or through CTRL-SHIFT-F).
 * Cucumber grammar/syntax validation -- Before writing neat tests, they have to be valid beforehand!
 * Outline view of Cucumber tests.
-* Identifying lengthy Scenarios and Scenario Outlines. 
-* Identifying lengthy Background.
+* Identifying lengthy Scenarios and Scenario Outlines (> 5 steps or < 3 steps).
+* Identifying lengthy Background (> 4 steps).
+* Identifying conjunctive steps and provide QuickFix for splitting said steps (into multiple steps).
+* Able to detect if a Scenario(s) has multiple/consecutive 'When' steps and suggest a better solution for it.
+* Able to detect if/when multiple Scenarios are similar to one another and provide QuickFix for combining them into a single Scenario Outline.
 
 BONUS: Able to work side-by-side with the Cucumber JVM Eclipse Plugin.
 
