@@ -27,5 +27,3 @@ Keep track of SEED's <a href="https://github.com/waisuan/SEED/releases">releases
 
 ## Feel free to drop any sort of feedback or issues in <a href="https://github.com/waisuan/SEED/issues">here!</a>
 
-** Source code will be pushed to repository (for external contributions) real soon! **
-
