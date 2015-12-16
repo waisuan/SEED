@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/uom.ac.uk.msc.cucumber/src-gen" editDirectory="/uom.ac.uk.msc.cucumber.edit/src"
+    editorDirectory="/uom.ac.uk.msc.cucumber.editor/src" modelPluginID="uom.ac.uk.msc.cucumber"
+    forceOverwrite="true" modelName="Gherkin" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="6.0" copyrightFields="false" editPluginID="uom.ac.uk.msc.cucumber.edit"
+    editorPluginID="uom.ac.uk.msc.cucumber.editor" runtimeVersion="2.10" usedGenPackages="platform:/resource/org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore">
+  <genPackages prefix="Gherkin" basePackage="uom.ac.uk.msc.cucumber" disposableProviderFactory="true"
+      fileExtensions="feature" ecorePackage="Gherkin.ecore#/">
+    <genClasses ecoreClass="Gherkin.ecore#//Feature">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Feature/tags"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Feature/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Feature/narrative"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Feature/background"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Feature/scenarios"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//Background">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Background/backgroundKeyword"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Background/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Background/narrative"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Background/steps"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//Scenario">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Scenario/tags"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Scenario/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Scenario/narrative"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Scenario/steps"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//ScenarioOutline">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//ScenarioOutline/tags"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//ScenarioOutline/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//ScenarioOutline/narrative"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//ScenarioOutline/steps"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//ScenarioOutline/examples"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//Step">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Step/stepKeyword"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Step/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Step/tables"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Step/code"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//Examples">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Examples/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Examples/narrative"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Gherkin.ecore#//Examples/table"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//Table">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Table/rows"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//DocString">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//DocString/content"/>
+    </genClasses>
+    <genClasses ecoreClass="Gherkin.ecore#//Tag">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Gherkin.ecore#//Tag/id"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="uom.ac.uk.msc.cucumber.sdk"
+      label="SEED plugin for Cucumber"
+      version="1.0.2.qualifier">
+
+   <plugin
+         id="uom.ac.uk.msc.cucumber"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="uom.ac.uk.msc.cucumber.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
